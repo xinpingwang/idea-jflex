@@ -15,5 +15,9 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
+intellij {
+    version '2018.3'
+}
+
 apply plugin: 'java'
 apply plugin: 'idea'
